@@ -1,0 +1,8 @@
+#N canvas 0 23 450 300 10;
+#X obj 17 32 expr~ atan($v1);
+#X obj 17 54 *~ 0.63662;
+#X obj 17 9 inlet~;
+#X obj 17 76 outlet~;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 0 0;
