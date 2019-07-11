@@ -1,4 +1,4 @@
-#N canvas 0 23 1680 1005 10;
+#N canvas 0 23 1712 1126 10;
 #X obj 90 551 soundfiler;
 #X obj 41 41 receive fromGUI;
 #X obj 41 62 list trim;
