@@ -1,4 +1,4 @@
-#N canvas 906 434 852 551 10;
+#N canvas 677 515 1629 565 10;
 #X obj 19 9 receive fromGUI;
 #X obj 19 29 list trim;
 #X obj 769 121 * -1;
@@ -32,8 +32,8 @@
 #X obj 569 149 * 96;
 #X obj 619 336 pack, f 7;
 #X obj 619 149 * 96;
-#X obj 19 461 pack f f f;
-#X obj 19 436 poly \$1 1;
+#X obj 19 501 pack f f f;
+#X obj 19 476 poly \$1 1;
 #X obj 69 313 swap 61;
 #X obj 119 313 swap 62;
 #X obj 169 313 swap 63;
@@ -59,7 +59,7 @@
 #X obj 558 291 + 10;
 #X obj 608 291 + 11;
 #X obj 658 291 + 12;
-#X obj 19 483 s mmp-piano;
+#X obj 19 523 s mmp-piano;
 #X obj 719 147 + 5;
 #X obj 669 73 * 127;
 #X obj 669 94 int;
